@@ -302,6 +302,14 @@
             </div>
 
         </div>
+    <script>
+      (function() {
+        const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+        const printDate = new Date().toLocaleDateString('en-US', dateOptions);
+        const headerText = `From https://openformatproj.github.io/cv/ (${printDate})`;
+        document.documentElement.setAttribute('header-text', headerText);
+      })();
+    </script>
 </body>
 
 </html>

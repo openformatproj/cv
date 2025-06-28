@@ -288,7 +288,7 @@ body {
     margin: 3cm 0cm; /* Add space for the header */
 
     @top-center {
-      content: "Your Name - Curriculum Vitae";
+      content: attr(header-text);
       font-family: "Montserrat", sans-serif;
       font-size: 9pt;
       color: #555;
